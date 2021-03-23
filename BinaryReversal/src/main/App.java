@@ -21,5 +21,6 @@ public class App {
 		String input = scanner.nextLine();
 		BinaryReversalProcessor brp = BinaryReversalProcessor.getInstance();
 		System.out.println(brp.binaryReversal(input));
+		scanner.close();
 	}
 }
